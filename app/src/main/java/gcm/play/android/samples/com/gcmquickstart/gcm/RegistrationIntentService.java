@@ -38,7 +38,7 @@ public class RegistrationIntentService extends IntentService {
 
     private static final String TAG = "RegIntentService";
     private static final String[] TOPICS = {"global"};
-    private static final String SENDER_ID = "1052369659845";
+    private static final String SENDER_ID = "your_sender_id";
 
     public RegistrationIntentService() {
         super(TAG);
@@ -62,7 +62,6 @@ public class RegistrationIntentService extends IntentService {
             Log.e(TAG, "GCM Registration Token: " + token);
 
             // TODO: Implement this method to send any registration to your app's servers.
-            sendRegistrationToServer(token);
 
             // Subscribe to topic channels
 //            subscribeTopics(token);
