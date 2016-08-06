@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">GCM Quickstart</string>
+    <string name="gcm_send_message">Token retrieved and sent to server!</string>
+    <string name="registering_message">Generating InstanceID token...</string>
+    <string name="token_error_message">An error occurred while either fetching the InstanceID token</string>
+</resources>
